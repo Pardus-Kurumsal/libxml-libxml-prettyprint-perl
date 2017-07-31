@@ -1,0 +1,6 @@
+libxml-libxml-prettyprint-perl (0.006-1) zesty; urgency=medium
+
+  [ Deepin Packages Builder ]
+  * Initial release 
+
+ -- lilongyu <leaeasy@gmail.com>  Mon, 31 Jul 2017 16:17:09 +0800

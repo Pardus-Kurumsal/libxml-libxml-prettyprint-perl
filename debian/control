@@ -1,0 +1,14 @@
+Source: libxml-libxml-prettyprint-perl
+Section: perl
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends-Indep: perl
+Build-Depends: debhelper (>=9), libexporter-tiny-perl, libxml-libxml-perl
+Standards-Version: 3.9.8
+Homepage: https://metacpan.org/release/XML-LibXML-PrettyPrint
+
+Package: libxml-libxml-prettyprint-perl
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, libexporter-tiny-perl, libxml-libxml-perl
+Description: Perl module which can be applied to an XML::LibXML DOM tree to reformat it into a more readable result.
+ Pretty-printing XML is not as CPU-efficient as dumping it out sloppily, so unless you're pretty sure that a human is going to need to make sense of your XML, you should probably not use this module.
